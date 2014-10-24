@@ -6,9 +6,14 @@ require 'bundler/setup'
 require 'active_model'
 require 'active_model_serializers'
 require 'active_support/json'
+require 'oj'
 
 # Not requiring this fixes the issue
 require 'oj_mimic_json'
+
+Oj.default_options = {
+  use_to_json: true
+}
 
 class Category
   include ActiveModel::Model
