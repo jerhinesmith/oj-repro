@@ -5,5 +5,5 @@ gem 'activemodel',              '~> 4.1.6'
 gem 'activesupport',            '~> 4.1.6'
 
 gem 'active_model_serializers', '~> 0.8.2'
-gem 'oj',                       '2.11.0'
+gem 'oj',                       '2.11.1'
 gem 'oj_mimic_json',            '~> 1.0.1'
